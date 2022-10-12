@@ -9,4 +9,6 @@ Image classification
 Text Detection
 - Created a HuggingFace Spaces to call OpenVINO model for inference (https://huggingface.co/spaces/rbarman/Openvino_Text_Detection)
 - Based on notebook: https://github.com/openvinotoolkit/openvino_notebooks/tree/main/notebooks/004-hello-detection
-- Sent clue image to HuggingFace spaces, but it does not detect all words. Need to play with the threshold
+- Sent clue image to HuggingFace spaces, but only detects highest word.
+	- Added threshold adjustments
+	- May need to try different model?
