@@ -1,5 +1,10 @@
 Use [OpenVINO toolkit](https://github.com/openvinotoolkit)
 
+Image Classification
+- Created google colab notebook to call OpenVINO PaddlePaddle model for inference
+- Based on notebooke: https://github.com/openvinotoolkit/openvino_notebooks/blob/main/notebooks/214-vision-paddle-classification/214-vision-paddle-classification.ipynb
+- TODO: create hugging space with mutli label output.
+
 
 Action recognition
 - Created google colab notebook to call OpenVINO model for inference
